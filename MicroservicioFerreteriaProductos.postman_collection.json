@@ -1,0 +1,451 @@
+{
+  "info": {
+    "_postman_id": "c14baa15-1e88-4dec-b32e-930333c95a25",
+    "name": "MicroservicioFerreteriaProductos",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48207231",
+    "_collection_link": "https://go.postman.co/collection/48207231-c14baa15-1e88-4dec-b32e-930333c95a25?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8000/productos",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxYkVTSE9UQS1RMHdMNl96NXBrbUxNcFpVX0t5S0F1NjhvUXk2ZGNOU000In0.eyJleHAiOjE3NzQyNzM2OTMsImlhdCI6MTc3NDI3MzM5MywianRpIjoib25ydHJvOjFhYmFhYTAwLTUyY2MtODkyMS0wOGFjLTEwYjcxNTM5YWQ2NSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvQ29udGFjdG9zUmVpbm8iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYWM3NzhlNWMtZGJiZi00MDYxLTgyNTEtOTcyY2FlMGVhODM0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibG9naW4iLCJzaWQiOiIxYmVmOTQwYi0xNjhhLTE3OTAtOWQzYS0wMGQ4MmZjZDFkZmYiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtY29udGFjdG9zcmVpbm8iLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImxvZ2luIjp7InJvbGVzIjpbIkFETUlOIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJhZG1pbiBhZG1pbiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6ImFkbWluIiwiZmFtaWx5X25hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AY2xpZW50LmNsIn0.ECi3NdMkCjNP7jCjUfbhgEkN16BovuSSrGilrWXK6ULXyLQMnTznbOt-n7kDOwzQ-UUgk673bJnD8oA_xgosJnjqnb4f4Nt3fdj5xrMLOmfEzqfpF1wyuR0GiLXPhKJm0M4z6QjuamKRAZeEuzD6_RyzZ8m2x6DtPI1Z8zAALhJC2gzuC-DDENVisAALjD-Ic8dtqIZgbbELO0GIWAE6QwaqD4xuCfuj6AQg8oG_042f_OOA5M1MEjkjXpDFRD-Ho91Qa4msVAoydtvHDul4asUb5gLKz-mPkqeA7C2dhF3dkZDfvnjGk-C9d9zQg1RfW9f8iharf9EgjvnrHl6mJQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/productos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/productos",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "ad123",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "admin",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/productos/por-sku/020219023",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "por-sku",
+            "020219023"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/productos",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxYkVTSE9UQS1RMHdMNl96NXBrbUxNcFpVX0t5S0F1NjhvUXk2ZGNOU000In0.eyJleHAiOjE3NzQyNzM2OTMsImlhdCI6MTc3NDI3MzM5MywianRpIjoib25ydHJvOjFhYmFhYTAwLTUyY2MtODkyMS0wOGFjLTEwYjcxNTM5YWQ2NSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvQ29udGFjdG9zUmVpbm8iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYWM3NzhlNWMtZGJiZi00MDYxLTgyNTEtOTcyY2FlMGVhODM0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibG9naW4iLCJzaWQiOiIxYmVmOTQwYi0xNjhhLTE3OTAtOWQzYS0wMGQ4MmZjZDFkZmYiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtY29udGFjdG9zcmVpbm8iLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImxvZ2luIjp7InJvbGVzIjpbIkFETUlOIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJhZG1pbiBhZG1pbiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6ImFkbWluIiwiZmFtaWx5X25hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AY2xpZW50LmNsIn0.ECi3NdMkCjNP7jCjUfbhgEkN16BovuSSrGilrWXK6ULXyLQMnTznbOt-n7kDOwzQ-UUgk673bJnD8oA_xgosJnjqnb4f4Nt3fdj5xrMLOmfEzqfpF1wyuR0GiLXPhKJm0M4z6QjuamKRAZeEuzD6_RyzZ8m2x6DtPI1Z8zAALhJC2gzuC-DDENVisAALjD-Ic8dtqIZgbbELO0GIWAE6QwaqD4xuCfuj6AQg8oG_042f_OOA5M1MEjkjXpDFRD-Ho91Qa4msVAoydtvHDul4asUb5gLKz-mPkqeA7C2dhF3dkZDfvnjGk-C9d9zQg1RfW9f8iharf9EgjvnrHl6mJQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sku\": \"020219023\",\r\n    \"nombre\": \"toalla de papel industrial\",\r\n    \"marca\": \"tork\",\r\n    \"modelo\": \"H/S\",\r\n    \"preciocompra\": 10080.0,\r\n    \"precioventa\": 13490.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/productos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/productos",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "ad123",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "admin",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"pack toalla de papel industrial\",\r\n    \"marca\": \"tork\",\r\n    \"modelo\": \"H/S\",\r\n    \"preciocompra\": 10080.0,\r\n    \"precioventa\": 13490.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/productos/020219023",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "020219023"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/productos",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "ad123",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "admin",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"preciocompra\": 10390.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/productos/020219023",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "020219023"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/productos",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxYkVTSE9UQS1RMHdMNl96NXBrbUxNcFpVX0t5S0F1NjhvUXk2ZGNOU000In0.eyJleHAiOjE3NzQyNzM2OTMsImlhdCI6MTc3NDI3MzM5MywianRpIjoib25ydHJvOjFhYmFhYTAwLTUyY2MtODkyMS0wOGFjLTEwYjcxNTM5YWQ2NSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvQ29udGFjdG9zUmVpbm8iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYWM3NzhlNWMtZGJiZi00MDYxLTgyNTEtOTcyY2FlMGVhODM0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibG9naW4iLCJzaWQiOiIxYmVmOTQwYi0xNjhhLTE3OTAtOWQzYS0wMGQ4MmZjZDFkZmYiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtY29udGFjdG9zcmVpbm8iLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImxvZ2luIjp7InJvbGVzIjpbIkFETUlOIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJhZG1pbiBhZG1pbiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6ImFkbWluIiwiZmFtaWx5X25hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AY2xpZW50LmNsIn0.ECi3NdMkCjNP7jCjUfbhgEkN16BovuSSrGilrWXK6ULXyLQMnTznbOt-n7kDOwzQ-UUgk673bJnD8oA_xgosJnjqnb4f4Nt3fdj5xrMLOmfEzqfpF1wyuR0GiLXPhKJm0M4z6QjuamKRAZeEuzD6_RyzZ8m2x6DtPI1Z8zAALhJC2gzuC-DDENVisAALjD-Ic8dtqIZgbbELO0GIWAE6QwaqD4xuCfuj6AQg8oG_042f_OOA5M1MEjkjXpDFRD-Ho91Qa4msVAoydtvHDul4asUb5gLKz-mPkqeA7C2dhF3dkZDfvnjGk-C9d9zQg1RfW9f8iharf9EgjvnrHl6mJQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/productos/020219023",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "020219023"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/api/productos/por-skus",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxYkVTSE9UQS1RMHdMNl96NXBrbUxNcFpVX0t5S0F1NjhvUXk2ZGNOU000In0.eyJleHAiOjE3NzQyNzM2OTMsImlhdCI6MTc3NDI3MzM5MywianRpIjoib25ydHJvOjFhYmFhYTAwLTUyY2MtODkyMS0wOGFjLTEwYjcxNTM5YWQ2NSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvQ29udGFjdG9zUmVpbm8iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYWM3NzhlNWMtZGJiZi00MDYxLTgyNTEtOTcyY2FlMGVhODM0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibG9naW4iLCJzaWQiOiIxYmVmOTQwYi0xNjhhLTE3OTAtOWQzYS0wMGQ4MmZjZDFkZmYiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtY29udGFjdG9zcmVpbm8iLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImxvZ2luIjp7InJvbGVzIjpbIkFETUlOIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJhZG1pbiBhZG1pbiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6ImFkbWluIiwiZmFtaWx5X25hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AY2xpZW50LmNsIn0.ECi3NdMkCjNP7jCjUfbhgEkN16BovuSSrGilrWXK6ULXyLQMnTznbOt-n7kDOwzQ-UUgk673bJnD8oA_xgosJnjqnb4f4Nt3fdj5xrMLOmfEzqfpF1wyuR0GiLXPhKJm0M4z6QjuamKRAZeEuzD6_RyzZ8m2x6DtPI1Z8zAALhJC2gzuC-DDENVisAALjD-Ic8dtqIZgbbELO0GIWAE6QwaqD4xuCfuj6AQg8oG_042f_OOA5M1MEjkjXpDFRD-Ho91Qa4msVAoydtvHDul4asUb5gLKz-mPkqeA7C2dhF3dkZDfvnjGk-C9d9zQg1RfW9f8iharf9EgjvnrHl6mJQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "[\"012102019\"]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/productos/por-skus",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "por-skus"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "user",
+              "value": "admin",
+              "type": "text",
+              "uuid": "7874bc41-411b-4e1a-85de-65288be5d439"
+            },
+            {
+              "key": "pwd",
+              "value": "ad123",
+              "type": "text",
+              "uuid": "fd8b6c1a-66f8-4adc-bb44-b8bc713d8eef"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8000/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/api/productos/por-id/11",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NjkxNzY4NTgsInN1YiI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfT1BFUkFUT1IiLCJST0xFX1VTRVJTIl0sImV4cCI6MTc2OTI2MzI1OH0.Il8Eda12k-AwS_rLQID7_SmYQtaEzOBhYxfKQo_bay9g3MNlvjxHuip_vdJ5L-cK",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/productos/por-id/11",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "por-id",
+            "11"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8000/api/productos/por-nombre/serrucho",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NjkxNzc3NDcsInN1YiI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfT1BFUkFUT1IiLCJST0xFX1VTRVJTIl0sImV4cCI6MTc2OTI2NDE0N30.ZR6kD2Kyo0gV-Gzof_NNbTF1OVXtCZjRhybv5o8R5EGtxBV6jBVJUXr-jy_-Ww18",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/productos/por-nombre/serrucho",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "productos",
+            "por-nombre",
+            "serrucho"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/realms/ContactosReino/protocol/openid-connect/token",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "client_id",
+              "value": "login",
+              "type": "text",
+              "uuid": "6d08bf6a-bdf3-4e92-9556-5cf6c1850208"
+            },
+            {
+              "key": "grant_type",
+              "value": "password",
+              "type": "text",
+              "uuid": "8af52b4a-2b83-436e-9590-04a962881bbc"
+            },
+            {
+              "key": "password",
+              "value": "ad123",
+              "type": "text",
+              "uuid": "a8e4d117-e691-4326-a1ec-ac0e1e85fe4e"
+            },
+            {
+              "key": "username",
+              "value": "admin",
+              "type": "text",
+              "uuid": "db06f57a-d411-44a3-9884-f4dc66a39042"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/realms/ContactosReino/protocol/openid-connect/token",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "realms",
+            "ContactosReino",
+            "protocol",
+            "openid-connect",
+            "token"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

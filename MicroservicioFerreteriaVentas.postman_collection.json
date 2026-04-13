@@ -1,0 +1,172 @@
+{
+  "info": {
+    "_postman_id": "eb3434bd-c810-428b-a75b-4e8b74af986d",
+    "name": "MicroservicioFerreteriaVentas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48207231",
+    "_collection_link": "https://go.postman.co/collection/48207231-eb3434bd-c810-428b-a75b-4e8b74af986d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:9000/api/ventas",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9000/api/ventas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "api",
+            "ventas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:9000/api/ventas/por-id/1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9000/api/ventas/por-id/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "api",
+            "ventas",
+            "por-id",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:9000/api/ventas/por-factura/22222",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9000/api/ventas/por-factura/22222",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "api",
+            "ventas",
+            "por-factura",
+            "22222"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:9000/api/ventas/por-factura/234",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"estado\": \"ANULADA\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:9000/api/ventas/por-factura/234",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "api",
+            "ventas",
+            "por-factura",
+            "234"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:9000/api/ventas/por-id/7",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"estado\": \"EMITIDA\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:9000/api/ventas/por-id/7",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "api",
+            "ventas",
+            "por-id",
+            "7"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:9000/api/ventas",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"numeroFactura\": \"81500\",\r\n    \"usuario\": \"admin\",\r\n    \"detalles\": [\r\n        {\r\n            \"sku\": \"020304050\",\r\n            \"cantidad\": 5,\r\n            \"precioUnitario\": 45990.00\r\n        },\r\n        {\r\n            \"sku\": \"011027000\",\r\n            \"cantidad\": 2,\r\n            \"precioUnitario\": 19390.00\r\n        }\r\n    ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:9000/api/ventas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "api",
+            "ventas"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
