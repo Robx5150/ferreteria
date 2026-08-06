@@ -1,0 +1,26 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: servidor-gateway
+  cloud: 
+   gateway:
+      routes:
+      - id: serv-productos
+        uri: lb://productos-ferreteria 
+        predicates:
+          - Path=/fproductos/**
+        filters:
+          - RewritePath=/fproductos/*, /  
+          
+      - id: serv-ventas
+        uri: lb://ventas-ferreteria 
+        predicates:
+          - Path=/fventas/**
+        filters:
+          - RewritePath=/fventas/*, /
+            
+eureka:                  
+ client:
+  serviceUrl:
+   defaultZone: http://localhost:8761/eureka  
