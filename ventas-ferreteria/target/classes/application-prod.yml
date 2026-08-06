@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: ventas-ferreteria
+  datasource:
+    url: jdbc:mysql://${IP_HOST}:${PORT_DB}/ferreteria_db?serverTimezone=UTC
+    username: ${USER_DB}
+    password: ${PASS_DB}
+  jpa:
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+server:
+  port: 9000
+productos:
+  auth:
+    url: http://${IP_HOST}:8080/realms/ContactosReino/protocol/openid-connect/token
+    user: admin
+    pass: ad123
+    client:
+      id: login
+    grandt:
+      type: password
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admeureka123@${IP_HOST}:8761/eureka
