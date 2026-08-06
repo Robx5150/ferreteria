@@ -1,0 +1,17 @@
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\config\JwtAuthConverter.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\config\SecurityConfig.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\controller\ProductoController.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\dto\ProductoCreateDto.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\dto\ProductoDTO.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\dto\ProductoPatchDto.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\dto\ProductoSkuDTO.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\dto\ProductoUpdateDto.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\exceptions\ExceptionNoExiste.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\exceptions\GestionExcepciones.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\exceptions\ProductoDuplicadoException.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\inicio\ProductosApplication.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\mapper\ProductoMapper.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\model\Producto.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\repository\ProductoRepository.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\service\ProductoService.java
+C:\Users\Roberto\Proyectos-Java\productos-ferreteria\src\main\java\service\ProductoServiceImpl.java
